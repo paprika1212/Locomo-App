@@ -36,7 +36,8 @@ Locomo is being developed as part of a structured lab program, progressing from 
 3. Frontend Development.  
 4. Feature Integration (Maps, Events, AI).  
 5. Testing and Debugging.  
-6. Deployment and Release.  
+6. Deployment and Release.
+
 
 
 ## License  
