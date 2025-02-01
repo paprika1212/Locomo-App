@@ -1,52 +1,50 @@
-# Locomo App
-Locomo – Your Local Discovery Companion  
+# Welcome to your Expo app 👋
 
-Locomo is a mobile application designed to simplify local exploration and event discovery. By combining advanced AI recommendations, seamless map integrations, and an intuitive user interface, Locomo helps users find trending places, exciting events, and personalized recommendations effortlessly.
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Features  
-- **Home**:  
-  - Discover trending spots, upcoming events, and popular destinations around you.  
+## Get started
 
-- **Maps**:  
-  - Explore nearby restaurants, shopping hubs, sightseeing spots, and nightlife locations.  
+1. Install dependencies
 
-- **Events**:  
-  - Stay updated on weekend happenings, concerts, and local festivals.  
+   ```bash
+   npm install
+   ```
 
-- **You**:  
-  - View places you’ve visited, manage your profile, and track your reviews.  
+2. Start the app
 
-## Tech Stack  
-- **Frontend**:  
-  - React Native for mobile app development.  
+   ```bash
+    npx expo start
+   ```
 
-- **Backend**:  
-  - Node.js for server-side functionality.  
+In the output, you'll find options to open the app in a
 
-- **APIs**:  
-  - Google Maps API for map integration and location data.  
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-- **Cloud Services**:  
-  - Firebase for user authentication, database management, and notifications.  
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Development Timeline  
-Locomo is being developed as part of a structured lab program, progressing from idea to deployment:  
-1. Ideation and Mockups.  
-2. Backend and Database Setup.  
-3. Frontend Development.  
-4. Feature Integration (Maps, Events, AI).  
-5. Testing and Debugging.  
-6. Deployment and Release.
+## Get a fresh project
 
+When you're ready, run:
 
+```bash
+npm run reset-project
+```
 
-## License  
-This project is licensed under the [MIT License](LICENSE).  
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-For queries or suggestions, please reach out to the team:  
-- Aadrika Singh: 221210001@nitdelhi.ac.in
-- Aditya Shaurya Singh Negi: 221210012@nitdelhi.ac.in
-- Anandita Sharma: 22120018@nitdelhi.ac.in
+## Learn more
 
-Let’s make local discovery seamless and fun with Locomo! 🌍📍
+To learn more about developing your project with Expo, look at the following resources:
 
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+
+## Join the community
+
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
