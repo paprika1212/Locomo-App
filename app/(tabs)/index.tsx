@@ -6,8 +6,8 @@ export default function HomeScreen() {
     <View
       style={styles.container}
     >
-      <Text style={styles.text}>Hello guys!!!</Text>
-      <Link href= "/about" style={styles.button}> Go to About Screen</Link>
+      <Text style={styles.text}>Hello guys!!! This is map Screen</Text>
+      <Link href= "/home" style={styles.button}> Go to Home now</Link>
     </View>
   );
 }
@@ -17,10 +17,10 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#fff',
+    backgroundColor: '#25292e',
   },
   logo: {
-    width: 150, // Adjust size as needed
+    width: 150,
     height: 150, 
     marginBottom: 20,
   },

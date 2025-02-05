@@ -16,17 +16,28 @@ export default function TabLayout() {
                 },
             }}
         >
-            <Tabs.Screen name="index" options={{
+            
+            <Tabs.Screen name="home" options={{
                 title: 'Home',
-                tabBarIcon: ({ color, focused }) => {
-                    return <Ionicons name={focused ? 'home-sharp' : 'home-outline'} color={color} size={24}/>}
-            }} />
-            <Tabs.Screen name="about" options={{
-                title: 'About',
                 tabBarIcon: ({ color, focused }) => (
                     <Ionicons
-                        name={focused ? 'information-circle' : 'information-circle-outline'} color={color} size={24}>
+                        name={focused ? 'home-sharp' : 'home-outline'} color={color} size={24}>
                     </Ionicons>)
+            }} />
+            <Tabs.Screen name="index" options={{
+                title: 'Map',
+                tabBarIcon: ({ color, focused }) => {
+                    return <Ionicons name={focused ? 'map' : 'map-outline'} color={color} size={24}/>}
+            }} />
+            <Tabs.Screen name="events" options={{
+                title: 'Events',
+                tabBarIcon: ({ color, focused }) => {
+                    return <Ionicons name={focused ? 'calendar' : 'calendar-outline'} color={color} size={24}/>}
+            }} />
+            <Tabs.Screen name="you" options={{
+                title: 'Profile',
+                tabBarIcon: ({ color, focused }) => {
+                    return <Ionicons name={focused ? 'person' : 'person-outline'} color={color} size={24}/>}
             }} />
         </Tabs>
     );
