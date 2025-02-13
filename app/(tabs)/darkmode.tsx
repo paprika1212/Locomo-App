@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 
-const DarkModeToggle: React.FC = () => {
+const DarkModeToggle = () => {
     const [darkMode, setDarkMode] = useState(false);
 
     const toggleDarkMode = () => {
